@@ -24,7 +24,7 @@ const data = {
       `amogus`,
       `i like kids - joe`,
       `Lets get hypixel youtube rank guys! 1/30000`,
-      `yare yare daze`,
+      `yareyareda ze`,
       `is that a jojo reference?`,
       `THIS SITE GETS AN EASY F TIER FROM ME`,
       `thanks i ${Math.random() > 0.5 ? "htae" : "hate"} it`,
