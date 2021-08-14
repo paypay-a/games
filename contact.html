@@ -3,27 +3,24 @@
   <head>
     <title>Moosy Site</title>
     <meta name="title" content="Moosy Site" />
-    <meta
-      name="description"
-      content="joe as in joe mama teehee"
-    />
+    <meta name="description" content="joe mama"/>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
 <link rel="shortcut icon" href="assets/favicon.png"type="image/x-icon">
 <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />    
-<link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/index.css" />
-  </head>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
   <body>
     <nav>
       <div class="logo">
-        <a href="index.html" style="color: white;"><h1>Moosyu</h1></a></div>
+        <a href="contact.html" style="color: white;"><h1>Moosyu</h1></a></div>
         
-
 <ul>
   <li><a href="#">About</a></li>
   <li><a href="tutorials.html">Tutorials</a></li>
@@ -38,7 +35,67 @@
 </nav>
   </head>
   <body>
-      <head>
-          <p>honestly i have not finished this</p>
-      </head>
+    <header>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: "Damion";}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 5px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h2>Contact Form</h2>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+    </header>
+ </div>
   </body>
+</html>
